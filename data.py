@@ -1,10 +1,10 @@
-class FixtureData:
+class TestsUserData:
     FULL_DICTIONARY_FIELDS = ['login', 'password', 'firstName']
     LOGIN_AND_FIRSTNAME_FIELDS = ['login', 'firstName']
     FIELDS_FOR_LOGIN = ['login', 'password']
     NOT_FULL_FIELDS_FOR_LOGIN = ['login']
 
-class OrderData:
+class TestsOrderData:
     ORDER_FIELDS = {
         "firstName": "Naruto",
         "lastName": "Uchiha",
