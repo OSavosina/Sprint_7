@@ -12,6 +12,12 @@ class RoutesName:
     TEN_ORDERS = '/orders?limit=10&page=0'
     TEN_ORDERS_NEAREST_STATION_KALUZKAYA = '/orders?limit=10&page=0&nearestStation=["110"]'
 
+class TestsMessages:
+    CREATE_USER_ERROR = 'Недостаточно данных для создания учетной записи'
+    CREATE_USER_CONFLICT = 'Этот логин уже используется. Попробуйте другой.'
+    LOGIN_USER_ERROR = 'Недостаточно данных для входа'
+    LOGIN_USER_NOT_FOUND = 'Учетная запись не найдена'
+
 
 
 
